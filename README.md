@@ -1,23 +1,26 @@
 # Azanaw Nega Portfolio
 
-A responsive, static portfolio site for Azanaw Nega, built with semantic HTML, CSS, and vanilla JavaScript.
+A responsive personal portfolio built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
+
+## Requirements
+
+- Node.js 18 or later
+- npm
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve the folder with any static server:
-
 ```bash
-npx serve .
+npm install
+npm run dev
 ```
 
-## Included
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-- Responsive editorial portfolio layout
-- Project category filtering
-- Mobile navigation menu
-- Intersection Observer reveal animations
-- Reduced-motion support
-- Client-side contact form confirmation
-- CV download link at `documents/Azanaw-Nega-CV.pdf`
+## Production build
 
-Project imagery currently uses optimized Unsplash URLs in CSS. Replace those URLs with local files in `assets/images/` when final photography is available.
+```bash
+npm run build
+npm run start
+```
+
+The resume is available at `public/documents/Azanaw-Nega-CV.pdf`. The existing custom domain is recorded in `CNAME`.
